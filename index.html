@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cake bakery</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!---Navbar----->
+    <div class="all-content">
+        <nav class="navbar navbar-expand-md fixed-top" id="navbar">
+            <a class="navbar-brand" href="#" id="logo"><img src="./image/logo.png" alt="" width="50px">Cake Delight</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span><img src="./image/menu.png" alt="" width="30px"></span>
+            </button>
+
+            <div class="container-fluid">
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#hom">Home</a>
+                        </li>
+
+                        
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#birthday cake">Birthday Cake</a></li>
+                                <li><a class="dropdown-item" href="#chocklate cake">Chocklate Cake</a></li>
+                                <li><a class="dropdown-item" href="#party cake">Party Cake</a></li>
+                                <li><a class="dropdown-item" href="#slice cake">Slice Cake</a></li>
+                                <li><a class="dropdown-item" href="#cup cake">Cup Cake</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#gallary" tabindex="-1"
+                                aria-disabled="true">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#about" tabindex="-1"
+                                aria-disabled="true">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#contact" tabindex="-1"
+                                aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="icons">
+                    <img src="./image/user.png" alt="" width="24px">
+                    <img src="./image/heart.png" alt="" width="24px">
+                    <img src="./image/add.png" alt="" width="26px">
+                </div>
+            </div>
+        </nav>
+
+        <!-- home section -->
+        <div class="home" id="hom">
+            <div class="content" data-aos="zoom-out">
+                <h3>Delicious
+                    <br>Cakes Bakery
+                </h3>
+                <h2>Category <span class="changecontent"></span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error,
+                    <br>Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <a href="#" class="btn bg-success">Order Now</a>
+            </div>
+            <div class="img" data-aos="zoom-out-left">
+                <img src="./image/background.png" alt="">
+            </div>
+        </div>
+        <!-- home section end -->
+
+        <!-- top cards -->
+        <div class="container" id="box" data-aos="fade-up" data-aos-duration="1500">
+            <div class="row">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/box1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/box2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/box3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top cards end -->
+
+
+        <!-- banner -->
+        <div class="banner" data-aos="fade-up" data-aos-duration="1500">
+            <div class="content">
+                <h3>Delicious Cake</h3>
+                <h2>UPTO 50% OFF</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quod.</p>
+                <div id="btnorder"><button>Order Now</button></div>
+            </div>
+            <div class="img">
+                <img src="./image/banner-background.png" alt="">
+            </div>
+        </div>
+        <!-- banner end -->
+
+        <!-- product cards -->
+        <section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h1>CAKES</h1>
+                <div class="row" style="margin-top:50px;">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <button type="button" class="btn btn-secondary" title="Quick View"><i><img
+                                            src="./image/views.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                            src="./image/heart.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                            src="./image/add.png" alt="" width="30px"></i></button>
+                            </div>
+                            <img src="./image/c1.png" alt="">
+                            <div class="card-body">
+                                <h3>Cream Cake</h3>
+                                <div class="star">
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons">star_border</span>
+                                    <span class="material-icons">star_border</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <h6>$50.10 <span><button>Add Cart</button></span></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <button type="button" class="btn btn-secondary" title="Quick View"><i><img
+                                            src="./image/views.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                            src="./image/heart.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                            src="./image/add.png" alt="" width="30px"></i></button>
+                            </div>
+                            <img src="./image/c2.png" alt="">
+                            <div class="card-body">
+                                <h3>Choco Cake</h3>
+                                <div class="star">
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons">star_border</span>
+                                    <span class="material-icons">star_border</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <h6>$60.5 <span><button>Add Cart</button></span></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <button type="button" class="btn btn-secondary" title="Quick View"><i><img
+                                            src="./image/views.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                            src="./image/heart.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                            src="./image/add.png" alt="" width="30px"></i></button>
+                            </div>
+                            <img src="./image/c3.png" alt="">
+                            <div class="card-body">
+                                <h3>Slice Cake</h3>
+                                <div class="star">
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons">star_border</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <h6>$100.10 <span><button>Add Cart</button></span></h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row" style="margin-top:50px;" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <button type="button" class="btn btn-secondary" title="Quick View"><i><img
+                                            src="./image/views.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                            src="./image/heart.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                            src="./image/add.png" alt="" width="30px"></i></button>
+                            </div>
+                            <img src="./image/c5.png" alt="">
+                            <div class="card-body">
+                                <h3>Brown Cake</h3>
+                                <div class="star">
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons">star_border</span>
+                                    <span class="material-icons">star_border</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <h6>$10.5 <span><button>Add Cart</button></span></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <button type="button" class="btn btn-secondary" title="Quick View"><i><img
+                                            src="./image/views.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                            src="./image/heart.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                            src="./image/add.png" alt="" width="30px"></i></button>
+                            </div>
+                            <img src="./image/c6.png" alt="">
+                            <div class="card-body">
+                                <h3>Slice Cake</h3>
+                                <div class="star">
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons text-warning">star</span>
+                                    <span class="material-icons">star_border</span>
+                                    <span class="material-icons">star_border</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <h6>$15.5 <span><button>Add Cart</button></span></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <button type="button" class="btn btn-secondary" title="Quick View"><i><img
+                                            src="./image/views.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                            src="./image/heart.png" alt="" width="30px"></i></button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                            src="./image/add.png" alt="" width="30px"></i></button>
+                            </div>
+                            <img src="./image/c7.png" alt="">
+                            <div class="card-body">
+                                <h3>Fruit Cake</h3>
+                                <span class="material-icons text-warning">star</span>
+                                <span class="material-icons text-warning">star</span>
+                                <span class="material-icons text-warning">star</span>
+                                <span class="material-icons text-warning">star</span>
+                                <span class="material-icons">star_border</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <h6>$200.10 <span><button>Add Cart</button></span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- gallary -->
+        <section id="gallary" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h1>OUR GALLARY</h1>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-start text-dark fw-bolder">Donuts</h3>
+                            </div>
+                            <img src="./image/o1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-start text-white fw-bolder">Ice Cream</h3>
+                            </div>
+                            <img src="./image/o2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-start text-dark fw-bolder">Cup Cake</h3>
+                            </div>
+                            <img src="./image/o3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 30px;" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-start text-primary fw-bolder">Delicious Cake</h3>
+                            </div>
+                            <img src="./image/o4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-start text-white fw-bolder">Chocolate Cake</h3>
+                            </div>
+                            <img src="./image/o5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-start text-dark fw-bolder">Slice Cake</h3>
+                            </div>
+                            <img src="./image/o6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallary -->
+
+        <!-- about -->
+        <div class="container" id="about" data-aos="fade-up" data-aos-duration="1500">
+            <h1>ABOUT US</h1>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/about.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 py-3 py-md-0">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias explicabo nulla dicta
+                        perferendis cupiditate autem assumenda unde fugit? Corrupti ipsa fugiat similique voluptate
+                        temporibus, cupiditate cumque iusto? Necessitatibus suscipit qui molestias odit ad aspernatur
+                        harum aliquid ipsam nisi, culpa quae, magnam dolores cupiditate velit exercitationem ratione
+                        deleniti dignissimos labore quia esse ea quos consequuntur perferendis aliquam. Est assumenda
+                        doloremque nobis, tenetur fuga similique eligendi nihil non officia possimus aliquid animi nisi
+                        ipsum qui veritatis repellat harum accusamus odit iusto laudantium voluptatum ipsa ut fugit
+                        veniam. Voluptates sint molestiae officia consequuntur iure repudiandae autem reiciendis,
+                        perspiciatis veritatis soluta quia velit necessitatibus.</p>
+
+                    <div id="bt"><button>Read More...</button></div>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+
+        <!-- contact  -->
+        <div class="container" id="contact" data-aos="fade-up" data-aos-duration="1500">
+            <h1>CONTACT US</h1>
+            <div class="row">
+                <div class="col-md-4 py-1 py-md-0">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="usr" placeholder="Name">
+                    </div>
+                </div></br>
+                <div class="col-md-4 py-1 py-md-0">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="eml" placeholder="Email">
+                    </div>
+                </div>
+                <div class="col-md-4 py-1 py-md-0">
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="phn" placeholder="Phone">
+                    </div>
+                </div>
+
+            </div></br>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+            </div></br>
+            <div id="messagebtn"><button>Send Message</button></div>
+        </div>
+        <!-- contact end -->
+
+
+        <!-- footer -->
+        <footer id="footer" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="text-center">Cake Bakery</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, accusantium.</p>
+            <div class="icons text-center">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="copyright text-center">
+                <strong>Cake Bakery</strong> .All Rights Reserved
+            </div>
+            <div class="credite text-center">
+                Designed By <a href="#"><span class="text-success fw-bold fs-5"> Harshada Patil</span></a>
+            </div>
+        </footer>
+        <!-- footer -->
+
+        <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+
+
+
+    </div>
+
+
+
+
+    </div>
+
+
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+</body>
+
+</html>
